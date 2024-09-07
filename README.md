@@ -19,5 +19,6 @@ Uma aplicação simples de lista de tarefas desenvolvida em JavaScript, utilizan
 * **JavaScript:** Lógica da aplicação.
 * **localStorage:** Armazenamento local das tarefas.
 
+* **URL APLICAÇÃO VERCEL** https://listatarefas-phi.vercel.app/
 
 
