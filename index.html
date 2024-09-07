@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <header>
+        <h1>Lista de tarefas</h1>
+    </header>
+    <main>
+        <section id="lista"></section>
+    </main>
+    <footer>
+        <h2>Adicionar Nova Tarefa</h2>
+        <section>
+            <div>
+                <label for="input-titulo">Titulo da Tarefa</label>
+                <input checked type="text" name="titulo" id="input-titulo" placeholder="Titulo">
+            </div>
+            <div>
+                <label for="data">Data e Hora</label>
+                <input type="datetime-local" name="data" id="data" placeholder="Data da Tarefa">
+            </div>
+        </section>
+        <textarea type="text" id="descricao" rows="3" maxlength="250" name="descricao" placeholder="Descrição"></textarea>
+        <button id="btn-salvar">Adicionar</button>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="script.js">
+        
+    </script>
+</body>
+
+</html>
